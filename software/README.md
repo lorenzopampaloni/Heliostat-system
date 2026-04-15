@@ -2,8 +2,8 @@
 
 This folder contains two main applications:
 
-- **Tracker** → the full heliostat control system (GUI + tracking + communication)
-- **Single Controller** → a simplified tool used for debugging, testing, and direct command execution
+- **TrackerV1** → the full heliostat control system (GUI + tracking + communication)
+- **Controller** → a simplified tool only used for debugging, testing, and direct command execution
 
 This module contains the Python application responsible for controlling the heliostat system.
 
