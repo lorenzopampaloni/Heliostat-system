@@ -1,4 +1,4 @@
-# Software (PC Controller)
+# Software (PC Side)
 
 This folder contains two main applications:
 
