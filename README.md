@@ -114,7 +114,7 @@ This project involved the design and integration of multiple engineering domains
 * [Hardware](hardware/README.md)
 * [Firmware](firmware/README.md)
 * [Software](software/README.md)
-* [Photos](photos/)
+* [Photos](hardware/photos/)
 * [Wiring](hardware/wiring.drawio.png)
 
 ---
