@@ -17,7 +17,7 @@ The system consists of:
 
 1. Connect all components according to the wiring diagram:
 
-   → See: [Wiring(hardware/wiring.drawio.png)]
+   → See: * [Wiring](hardware/wiring.drawio.png)
 
 2. Ensure:
 
