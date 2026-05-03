@@ -68,7 +68,7 @@ This ensures that incoming sunlight is reflected exactly toward the target.
 * [Firmware](firmware/README.md)
 * [Software](software/README.md)
 * [Photos](photos/)
-* [Wiring](hardware/wiring.drawio)
+* [Wiring](hardware/wiring.drawio.png)
 
 ---
 
