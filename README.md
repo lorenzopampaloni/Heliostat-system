@@ -60,6 +60,53 @@ This ensures that incoming sunlight is reflected exactly toward the target.
 
 ---
 
+## Engineering Highlights
+
+This project involved the design and integration of multiple engineering domains:
+
+### Mechanical Design & Fabrication
+
+* Custom aluminum parts machined on a lathe
+* Design of a 2-axis structure with worm gear reducers
+* Mechanical backlash mitigation using preload system (cable + weight)
+* Assembly and alignment of a multi-axis system
+
+### Embedded Systems
+
+* Development of Arduino firmware for real-time motor control
+* Integration of AccelStepper
+* Non-blocking motion control using acceleration profiles
+* Driver control and signal inversion handling
+
+### Electronics & Hardware Integration
+
+* Wiring and integration of stepper drivers (TB6600)
+* Serial communication setup with HC-12 modules
+* USB-to-TTL interface for PC communication
+* Debugging of hardware-level issues (grounding, signal inversion, noise)
+
+### Communication Protocol Design
+
+* Custom serial protocol with message ID and ACK system
+* Packet structure: `#ID:CMD;` → `@ID:OK;`
+* Handling of latency and packet parsing
+* Robust communication over wireless link
+
+### Mathematical Modeling
+
+* Solar position computation based on time and location
+* Vector-based reflection model (mirror normal computation)
+* Conversion from geometry to motor control space
+
+### System Integration
+
+* Full-stack integration: software + firmware + hardware
+* Open-loop deterministic control strategy
+* Calibration of real-world system vs theoretical model
+
+
+---
+
 ## Documentation
 
 * [How it works](HOW_IT_WORKS.md)
@@ -87,5 +134,7 @@ Working prototype:
 * Open-loop (no feedback)
 * Requires manual calibration
 * Accuracy depends on mechanical precision
+
+
 
 
