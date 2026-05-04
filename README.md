@@ -1,8 +1,17 @@
 # Heliostat System
 
+
+
 ## System Overview
 
-![System](hardware/photos/system_photos/System_complete_overview.jpeg)
+<p align="center">
+  <img src="hardware/photos/system_photos/System_complete_overview.jpeg" width="500">
+</p>
+
+
+
+
+
 
 A 2-axis heliostat capable of reflecting sunlight toward a fixed target using a fully model-based approach.
 
